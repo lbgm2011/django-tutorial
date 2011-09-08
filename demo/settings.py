@@ -1,5 +1,3 @@
-# Django settings for demo project.
-
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -104,9 +102,6 @@ ROOT_URLCONF = 'demo.urls'
 
 TEMPLATE_DIRS = (
       '/home/benyasca/plantillas',
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
 )
 
 INSTALLED_APPS = (
@@ -116,7 +111,6 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     'polls'
     # Uncomment the next line to enable admin documentation:
